@@ -1,4 +1,4 @@
-#Introduction
+# Introduction
 This repository is from the 4th lab assignment "Kernel Density Estimator", 
 from: 
 
@@ -8,7 +8,7 @@ The course was taken during Fall 2022, taught by Professor Gunawardane.
 
 ---
 
-#Description 
+# Description 
 This notebook does the following:
 
 1. Takes sample data (the data is a survey of the performance of various countries)
@@ -27,11 +27,11 @@ This notebook does the following:
 
 ---
 
-#How to setup the repository
-##Download the repository 
+# How to setup the repository
+## Download the repository 
 Clone the library using git clone
 
-##Downloading required libraries:
+## Downloading required libraries:
 Libraries used:
 
 - ipywidgets
@@ -48,7 +48,7 @@ Libraries used:
 
 Each can be installed via the terminal with: `pip install [insert library]`
 
-##Program to run the lab
+## Program to run the lab
 Any program that runs jupyter labs. 
 
 I personally use the linux mint repository release.
@@ -60,7 +60,7 @@ Which can be installed through the terminal with:
 
 ---
 
-#Running it
+# Running it
 After opening it, 
 just scroll through to see the graphs created by the code blocks.
 
