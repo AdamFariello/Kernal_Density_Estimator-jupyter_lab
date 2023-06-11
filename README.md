@@ -17,15 +17,13 @@ This notebook does the following:
 
 3. Then over time goes through these steps in various orders:
 
-	- Clean the data
+    - Import data
 
-	- Reformat parts of the data for proper display
+	- Clean data
 
-	- Print the dataframe
+	- Alter data 
 
-	- Visualize the dataframe using matplotlib
-
-	- Visualize the dataframe using both matplotlib and seaborn
+	- Present data (using print(), or graphing library(s))
 
 ---
 
@@ -34,11 +32,9 @@ This notebook does the following:
 Clone the library using git clone
 
 ##Downloading required libraries:
-Each library required can be installed with "pip install [insert library]
+Libraries used:
 
 - ipywidgets
-
-- zipfile
 
 - pandas
 
@@ -48,13 +44,19 @@ Each library required can be installed with "pip install [insert library]
 
 - seaborn 
 
-- warnings
+- standard python libraries (zipfile, warnings)
+
+Each can be installed via the terminal with: `pip install [insert library]`
 
 ##Program to run the lab
-Any program that runs jupyter labs.
+Any program that runs jupyter labs. 
 
-I personally use the linux mint repository release
-(can be installed with: "Sudo apt-get install jupyter")
+I personally use the linux mint repository release.
+
+(
+Which can be installed through the terminal with: 
+`Sudo apt-get install jupyter`
+)
 
 ---
 
