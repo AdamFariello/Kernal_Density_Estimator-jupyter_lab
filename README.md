@@ -1,72 +1,48 @@
 # Introduction
-This repository is from the 4th lab assignment "Kernel Density Estimator", 
-from: 
-
-["Rutgers 198:439 'Introduction to Data Science'" (Click here to see the class page)]("https://www.cs.rutgers.edu/academics/undergraduate/course-synopses/course-details/01-198-439-introduction-to-data-science").
-
-The course was taken during Fall 2022, taught by Professor Gunawardane.
+This repository is the work from, and for, 
+the cs439 lab: *"Kernel Density Estimator"*.    
+[The course](https://www.cs.rutgers.edu/academics/undergraduate/course-synopses/course-details/01-198-439-introduction-to-data-science) 
+was taken during Fall 2022
 
 ---
 
 # Description 
-This notebook does the following:
+The notebook imports a .json of sample data.    
+Then the following actions, (without any order, nor equal amount of times), are *taken:
 
-1. Takes sample data (the data is a survey of the performance of various countries)
+- Clean data   
+- Reformat/Alter the data   
+- Make new dataframes and series from that data       
+- Present data 
+(using print, show(), or graphing library(s) such as seaborn)   
 
-2. Imports the data into a pandas dataframe
-
-3. Then over time goes through these steps in various orders:
-
-    - Import data
-
-	- Clean data
-
-	- Alter data 
-
-	- Present data (using print(), or graphing library(s))
+**The steps above were done without a particular order, nor equal amount of times* 
 
 ---
 
-# How to setup the repository
-## Download the repository 
-Clone the library using git clone
+# How to setup the repository 
+## Cloning the repository (via terminal)
+`git clone 
+https://github.com/AdamFariello/Kernal_Density_Estimator-jupyter_lab`
 
-## Downloading required libraries:
-Libraries used:
-
-- ipywidgets
-
-- pandas
-
-- numpy
-
-- matplotlib
-
-- seaborn 
-
-- standard python libraries (zipfile, warnings)
-
-Each can be installed via the terminal with: `pip install [insert library]`
+## Downloading required libraries (via terminal)
+`pip install 
+ipywidgets pandas numpy matplotlib seaborn`
 
 ## Program to run the lab
-Any program that runs jupyter labs. 
-
-I personally use the linux mint repository release.
-
-(
-Which can be installed through the terminal with: 
-`Sudo apt-get install jupyter`
-)
+Any program that open and run jupyter labs.    
+Here's a few:
+[Visual Studio Code](https://code.visualstudio.com/docs/datascience/jupyter-notebooks),
+[github codespace](https://github.blog/changelog/2022-11-09-using-codespaces-with-jupyterlab-public-beta/),
+and
+[the terminal](https://jupyter.org/install)
 
 ---
 
 # Running it
-After opening it, 
-just scroll through to see the graphs created by the code blocks.
+To look at the answers, open:    
+"`Lab_4.github.submission.ipynb`"
 
-You can run all the code blocks, or run each one by one, 
-to double check the code.
+To validate if the answers are correct -- (what the teacher *expected*) -- open:    
+"`Lab_4.github.output_reference.ipynb`"
 
-For any other usage, 
-I recommend reading 
-[a tutorial such as this one](https://www.dataquest.io/blog/jupyter-notebook-tutorial/) 
